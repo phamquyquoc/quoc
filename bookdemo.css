@@ -1,0 +1,56 @@
+body{
+  box-sizing: border-box;
+}
+ .dad-container{
+  width: 100%;
+  height: 900px;
+  background-color: blue;
+ }
+.container{
+  display: flex;
+  margin: 0 300px;
+}
+.wrap{
+  margin-left: 20px;
+  position: relative;
+}
+.wrap .shadow{
+  display: none;
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  left: 20px;
+  top: 160px;
+  z-index: 1000;
+}
+
+.wrap:hover {
+  border: 1px solid #777;
+}
+.wrap:hover .shadow{
+  display: block;
+  
+}
+.shadow .Name{
+  padding: 8px ;
+  background-color: green;
+}
+.wraper{
+  background-color: grey;
+  margin-left: 5px;
+}
+.wraper .cost{
+  color: green;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.wraper .selection{
+  text-align: center;
+}
+.wraper .selection div{
+  width: 120px;
+  background-color: green;
+  padding: 3px 5px;
+  margin-bottom: 3px;
+  margin-left: 35px;
+}
